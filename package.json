@@ -1,0 +1,22 @@
+{
+  "name": "all-in-one",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "devDependencies": {
+    "@commitlint/cli": "^17.4.4",
+    "@commitlint/config-conventional": "^17.4.4",
+    "eslint": "^8.35.0",
+    "husky": "^8.0.3",
+    "jest": "^29.5.0",
+    "lint-staged": "^13.1.2"
+  },
+  "scripts": {
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js --coverage",
+    "prepare": "npx husky install"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
